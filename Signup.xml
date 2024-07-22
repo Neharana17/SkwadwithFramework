@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true"  name="C:/Users/Neha Rana/IdeaProjects/untitled"><classes><class name="org.example.LoginTest.LoginTest">
+    <methods><include name="testLoginPostive"/></methods>
+</class><class name="org.example.LoginTest.LoginTest">
+    <methods>
+        <include name="testLoginPostive"/>
+        <include name="testLoginNagtive1"/>
+        <include name="testLoginNagtive2"/>
+        <include name="testLoginNagtive3"/>
+        <include name="testLoginNagtive4"/>
+    </methods>
+</class>
+</classes>
+</test>
+</suite>
